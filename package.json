@@ -1,0 +1,23 @@
+{
+  "name": "brokkolybot.ts",
+  "version": "1.0.0",
+  "description": "BrokkolyBot, Now in Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Brendan Krull",
+  "license": "MIT",
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    "postgresql-client": "^1.18.1",
+    "discord.js": "^13.1.0",
+    "typescript": "^4.4.2"
+  }
+}
