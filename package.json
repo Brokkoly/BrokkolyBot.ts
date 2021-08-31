@@ -2,9 +2,12 @@
   "name": "brokkolybot.ts",
   "version": "1.0.0",
   "description": "BrokkolyBot, Now in Typescript",
-  "main": "index.ts",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc",
+    "start": "tsc && node -r dotenv/config ./lib/index.js"
+
   },
   "keywords": [
     "discord",
