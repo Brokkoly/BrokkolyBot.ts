@@ -8,5 +8,7 @@ export const onMessage = async (message: Message, database: PostgresDatabase) =>
 
 	
 
+	
+
 	message.channel.send(message.content);
 };

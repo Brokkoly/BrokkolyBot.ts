@@ -7,7 +7,6 @@
     "test": "test",
     "build": "tsc",
     "start": "tsc && node -r dotenv/config ./lib/index.js"
-
   },
   "keywords": [
     "discord",
@@ -15,7 +14,11 @@
   ],
   "author": "Brendan Krull",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "discord-api-types": "^0.23.1"
+  },
   "dependencies": {
     "discord.js": "^13.1.0",
     "dotenv": "^10.0.0",
