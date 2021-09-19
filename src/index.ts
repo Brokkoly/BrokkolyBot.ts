@@ -2,11 +2,6 @@ import { Client, Intents} from "discord.js";
 import {SlashCommandBuilder} from "discord.js/node_modules/@discordjs/builders"
 import { PostgresDatabase } from "./databases/PostgresDatabase";
 import { onMessage } from "./events/onMessage";
-//console.log("imported");
-//require('dotenv').config();
-const commands = [
-SlashCommandBuilder()	
-]
 
 
 (async () => {
@@ -17,7 +12,9 @@ SlashCommandBuilder()
 
 
 	BOT.on("ready", (client) => {
-		console.log("Connected to Discord!")
+		console.log("Connected to Discord!");
+		//TODO: verify commands
+		
 	});
 
 	BOT.on("messageCreate", async (message) => await onMessage(message, DATABASE));
