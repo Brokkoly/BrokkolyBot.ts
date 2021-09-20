@@ -2,7 +2,7 @@ import { Guild } from "discord.js";
 
 export interface BotDatabaseInterface {
 
-	getMessage(inputs: CommandSearchInputs): string;
+	getMessage(inputs: CommandSearchInputs): Promise<string>;
 
 }
 
