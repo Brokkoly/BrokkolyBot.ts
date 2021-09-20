@@ -6,6 +6,14 @@ export const onMessage = async (message: Message, database: PostgresDatabase) =>
 		return;
 	}
 
+	//TODO: Commands
+	//ADD
+	//HELP
+	//TWITCH COMMANDS
+	//TIMEOUT COMMANDS
+	//EXTRACT EMOJI
+
+	
 
 	let commandArr = message.content.split(" ");
 	//TODO: Get command prefix for server
